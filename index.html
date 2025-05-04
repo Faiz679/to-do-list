@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="images/icon.png" alt=""></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li class="unchecked">Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- 1. the task name's length is limited by default, make it so that one can write a longer task (or cap the length to your liking)
+2. try to implement a deadline for the task, like a set date, and display the number of days/hours left to finish the task.
+3. play around with the css properties, use a different font, try to make the serial order change so that only unfinished tasks stays at the top.
+4. play around with keyframes too, maybe try to animate the line that goes through the task name once it's completed.
+5. Consider adding a feature to categorize tasks, allowing users to sort by priority or tags for better organization.
+6. Implement a feature to allow users to edit existing tasks, enabling them to modify the task name or deadline.
+7. Make a confirmation button if ur about to delete tasks
+8. Make a multiple select for delete or completing the task
+9. Enter key confirming add buttonn and add need to be pressed twice, when press once it change the text to confirm then u can press enter again -->
